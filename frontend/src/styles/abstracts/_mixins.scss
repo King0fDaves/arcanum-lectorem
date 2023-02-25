@@ -1,0 +1,32 @@
+//@import './all';
+
+@mixin sharpBorderCorners($edgeSize){
+    
+    clip-path: polygon(
+        0% $edgeSize,
+        $edgeSize 0,
+        100% 0,
+        100% calc(100% - $edgeSize),
+        calc(100% - $edgeSize) 100%,
+        0 100%
+    );
+}
+
+@mixin inputField($width, $height, $textPosition){
+    padding-left: $textPosition;
+    padding-right: $textPosition;
+    width:$width;
+    height:$height;
+    border:none;
+    outline:none;
+    background-color: $grey;
+    color:$textColour;
+}
+
+
+
+@mixin keyframes-animation($name) {
+    @keyframes #{$name} {
+        @content;
+    }
+}

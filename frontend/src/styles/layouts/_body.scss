@@ -1,0 +1,16 @@
+body{
+    background-color: #121212;
+    font-family: sans-serif;
+    color: #fff;
+
+    padding: 0;
+    margin: 0;
+}
+
+.mainGridLayout{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 10rem);
+    grid-template-rows: repeat(3, 10rem);
+}
