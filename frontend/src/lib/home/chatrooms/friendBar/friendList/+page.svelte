@@ -1,7 +1,3 @@
-<script>
-  export let friends;
-</script>
-
 <ul class="friendScrollBar__items">
   <li class="friendScrollBar__item">
     <button class="addFriend">
@@ -11,10 +7,10 @@
   </li>
 
   {#each friends as friend}
-    <li class="friendScrollBar__item">
+    <a href="#room" on:click={scrollIntoView} class="friendScrollBar__item">
       <div class="profilePic"></div>
       <p class="username">{friend.username}</p>
-    </li>
+    </a>
   {/each}
   <li class="friendScrollBar__item">
     <div class="extraPadding"></div>
@@ -22,9 +18,24 @@
   
 </ul>
 
+<script>
+  export let friends;
+
+  function scrollIntoView({ target }) {
+		const element = document.querySelector(target.getAttribute('href'));
+        console.log(target) 
+		if (!element) return;
+        element.scrollIntoView()
+    };
+
+</script>
+
 <style lang="scss">
+    @media screen and (max-width: $mobileMaxScreenWidth){
+
   .friendScrollBar__items {
     overflow-x: scroll;
+    
     padding: 0;
     margin: 0;
     grid-column: 1/50;
@@ -32,13 +43,14 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-
+    width:92vw;
   }
   .plus{
     text-align: center;
     color:$textColour;
   }
   .addFriend {
+    cursor:pointer;
     display: block;
     margin: auto;
     text-align: center;
@@ -54,6 +66,8 @@
     display: block;
     text-align: center;
     margin-right: .3rem;
+
+   
   }
   .profilePic {
     margin: auto;
@@ -69,9 +83,5 @@
     font-size: 1rem;
   }
 
-  .extraPadding{
-    margin:auto;
-    width:3rem;
-    height: 2rem;
-  }
+}
 </style>

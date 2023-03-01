@@ -8,7 +8,9 @@
         padding: 0;
         margin: 0;
         grid-template-columns: repeat(3, 100vw) ;
-        grid-template-rows: repeat(1, 100vh);
+        grid-template-rows: repeat(1, 92vh);
+        overflow-y: hidden;
+
 
         .chatroomsSection{
             padding: 0;
@@ -17,16 +19,27 @@
             grid-column: 1/2;
             grid-template-columns: repeat(20, 1fr) ;
             grid-template-rows: repeat(40, 1fr);
+            overflow-y: hidden;
+
+
         }
 
         .roomSection{
             grid-column: 2/3;
-            background-color: green;
+            padding: 0;
+            margin:0;
+            display: grid;
+            grid-template-columns: repeat(20, 1fr) ;
+            grid-template-rows: repeat(40, 1fr);
+            overflow-y: hidden;
+
         }
 
         .infoSection{
             grid-column: 3/4;
             background-color: red;
+                overflow-y: hidden;
+
         }
     }   
 }

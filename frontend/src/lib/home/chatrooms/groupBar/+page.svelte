@@ -21,17 +21,21 @@
         {name:'Rick Rollers'},
         {name:'Rick Rollers'},
         {name:'Rick Rollers'},
+        {name:'Rick Rollers'},
+        
 
         
     ]
 </script>
 
 <style lang="scss">
-    .grid-groupScrollBar{
-            overflow-y: scroll;
+    @media screen and (max-width: $mobileMaxScreenWidth){
 
+    .grid-groupScrollBar{
+        overflow-y: scroll;
+        padding:0;
         grid-column: 2/20;
-        grid-row: 13/40;
+        grid-row: 13/39;
         display: grid;
 
         grid-template-columns: repeat(10, 1fr);
@@ -40,8 +44,9 @@
 
     .groupScrollBar__title{
         padding: 0;
-    
+        position: sticky;    
         color:$primaryColour;
         font-size: 1.1rem;
+    }
     }
 </style>

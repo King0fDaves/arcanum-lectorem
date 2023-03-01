@@ -1,4 +1,4 @@
-<a href="#info" on:click={scrollIntoView}>Click me</a>
+<a href="#room" on:click={scrollIntoView}>Click me</a>
 
 <script>
     function scrollIntoView({ target }) {

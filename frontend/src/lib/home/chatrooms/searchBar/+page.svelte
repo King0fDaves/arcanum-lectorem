@@ -7,10 +7,11 @@
 
 
 <style lang="scss">
-    .grid-searchbar__form{
+    @media screen and (max-width: $mobileMaxScreenWidth){
+        .grid-searchbar__form{
         grid-column: 2/10;
         grid-row: 3/4;
-    }
+        }
 
     .searchbar__input{    
         
@@ -21,5 +22,7 @@
         }
 
         @include sharpBorderCorners(1rem)
-    }    
+    }
+    }
+        
 </style>

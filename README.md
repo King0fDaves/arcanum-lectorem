@@ -17,3 +17,14 @@ This is for my __Software Design and Development 'Major Project'__ and __Practic
     - Apache
     - PostgreSQL 
 
+
+## Project Setup 
+
+1. __Frontend__
+
+__Make sure NodeJS is installed on your machine__
+
+- `npm create svelte@latest frontend`
+- `cd frontend`
+- `npm install -D svelte-preprocess`
+- `npm install -D sass`
