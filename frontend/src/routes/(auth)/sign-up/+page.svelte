@@ -7,8 +7,6 @@
     redirectTitle={redirectTitle}
 />
 
-<p> Already Have An Account? </p>
-
 <script>
     import Form from '$lib/auth/form/+page.svelte';
     
@@ -18,7 +16,7 @@
 
     let fields = [
             {name:"Create Username", type:"text"},
-            {name:'Ctreate Password', type:"password"}
+            {name:'Create Password', type:"password"}
         ] 
 </script>   
 

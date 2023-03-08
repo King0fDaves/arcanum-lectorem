@@ -4,4 +4,9 @@
 </svelte:head>
 <main class="mainGridLayout">
 	<slot />
+
+	<nav class="grid-pageNavbar">
+	
+	</nav>
 </main>
+
