@@ -1,5 +1,13 @@
 @import'../abstracts/all' ;
 
+body{
+    background-color: #121212;
+    font-family: sans-serif;
+    color: #fff;
+
+    padding: 0;
+    margin: 0;
+}
 .headerSection{
     grid-column:1/11;
     grid-row: 1/2;

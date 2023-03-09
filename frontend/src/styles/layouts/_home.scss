@@ -3,43 +3,13 @@
 .mainGridLayout{
     overflow-y: hidden;
     overflow-x: hidden;
+    background-color: #121212;
+    font-family: sans-serif;
+    color: #fff;
+
+    padding: 0;
+    margin: 0;
     @media screen and (max-width:$mobileMaxScreenWidth){
-        display: grid;
-        padding: 0;
-        margin: 0;
-        grid-template-columns: repeat(3, 100vw) ;
-        grid-template-rows: repeat(1, 92vh);
-        overflow-y: hidden;
-
-
-        .chatroomsSection{
-            padding: 0;
-            margin:0;
-            display: grid;
-            grid-column: 1/2;
-            grid-template-columns: repeat(20, 1fr) ;
-            grid-template-rows: repeat(40, 1fr);
-            overflow-y: hidden;
-
-
-        }
-
-        .roomSection{
-            grid-column: 2/3;
-            padding: 0;
-            margin:0;
-            display: grid;
-            grid-template-columns: repeat(20, 1fr) ;
-            grid-template-rows: repeat(40, 1fr);
-            overflow-y: hidden;
-
-        }
-
-        .infoSection{
-            grid-column: 3/4;
-            background-color: red;
-                overflow-y: hidden;
-
-        }
+       
     }   
 }
