@@ -15,5 +15,13 @@
     .grid-inputFields{
         grid-column:3/13;
         grid-row:4/10;
+        
+        display:flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        
+        flex-direction:column;  
+        justify-content: center;
+        align-items: center;
     }
 </style>

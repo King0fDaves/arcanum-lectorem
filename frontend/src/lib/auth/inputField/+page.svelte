@@ -15,7 +15,12 @@
     }
     .loginFormField{
         display:flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        
         flex-direction:column;
+        justify-content: center;
+        align-items: center;
         margin-bottom:3vh;
     }
 
@@ -28,7 +33,8 @@
     }
 
     .loginFormField__input{
-        margin:auto;
+        align-self: center;
+        justify-content: center;
         @include inputField(15rem, 2rem, .75rem);
         @include sharpBorderCorners(1rem);
 

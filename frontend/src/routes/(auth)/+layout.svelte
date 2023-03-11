@@ -40,7 +40,11 @@
     .loginForm{
         
         margin:auto;
-
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        justify-content: center;
+        align-items: center;
         width:30rem;
         height:28rem;
         background-color:$darkGrey;

@@ -25,9 +25,11 @@
 
 <style lang="scss">
     .grid-loginForm__form{
+    
         display:grid;
         grid-template-columns: repeat(15, 2rem);
         grid-template-rows: repeat(15, 2rem);
+        
     }
 
     .redirect{

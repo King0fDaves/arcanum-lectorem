@@ -1,16 +1,14 @@
-<button class="btn" on:click={() => openGroupChat()}>Open Group Chat</button>
-  <Group />
-<script>
-  import Group from "$lib/home/chatrooms/group/+page.svelte";
 
-  function openGroupChat() {  
-    document.getElementById("groupChats").style.width = "80vw";
-  }
+<DirectMessages />
+<GroupRooms />
+<script>
+  
+  import GroupRooms from "$lib/home/chatrooms/groupRooms/+page.svelte";
+  import DirectMessages from "$lib/home/chatrooms/directMessages/+page.svelte";
+
+  
 </script>
 
 <style lang="scss">
-  .btn {
-    top: 0;
-    position: fixed;
-  }
+
 </style>

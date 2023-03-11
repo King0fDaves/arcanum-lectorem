@@ -12,6 +12,13 @@
 }
 
 .loginForm__title{
+    display:flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+        
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
     color:$primaryColour;
     text-align: center;
     font-size:2.25rem;
