@@ -13,16 +13,17 @@
 <style lang="scss">
     @media screen and (max-width: $mobileMaxScreenWidth){
         .directMessages{
-            grid-column: 1/26;
-            grid-row: 1/26;
+            width:100vw;
+			height:100vh;
+            display: flex;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            flex-direction: row;
+            flex-wrap: wrap;
             background-color: $backgroundColour;
-            display: grid;
-            display: -ms-grid;
-            display: -moz-grid;
+            align-items: center;
+			justify-content: center;
 
-            grid-template-columns: repeat(25, 1fr);
-            grid-template-rows: repeat(25, 1fr);
-            
         }
 
         .friendsTitle{
@@ -35,9 +36,6 @@
         }
 
       
-        .friendDMs{
-            margin-top: 10rem;
-        }
     }
     
 </style>

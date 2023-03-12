@@ -1,7 +1,7 @@
 <nav class="mainNavbar">
     <ul class="navbar">
       <li class="navbarItem">
-        <a href="#" class="routes"><i class="icon selected fa-solid fa-house"></i></a> 
+        <a href="#" class="routes"><i class="icon fa-solid fa-house"></i></a> 
       </li>
       <li class="navbarItem">
         <a href="#" class="routes"> <i class="icon fa-solid fa-envelope"></i></a>
@@ -30,9 +30,13 @@
           overflow-y: hidden;
           padding: 0;
           margin: 0;
-          grid-row: 23/26;
-          grid-column: 1/26;
+          justify-self: flex-end;
+          
           display: flex;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+
+          margin-top: auto;
       }
   
       .navbar{

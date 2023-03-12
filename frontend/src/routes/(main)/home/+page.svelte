@@ -18,15 +18,12 @@
 			width:100vw;
 			height:81vh;
 
-			display: -moz-grid;
-			display: -ms-grid;
-			display: grid;
+			display: flex;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			flex-direction: row;
 
-			-ms-grid-columns: repeat(25, 1fr);
-			-ms-grid-rows: repeat(25, 1fr);
-
-			grid-template-columns: repeat(25, 1fr);
-			grid-template-rows: repeat(25, 1fr);
+			
 
       }
 	}

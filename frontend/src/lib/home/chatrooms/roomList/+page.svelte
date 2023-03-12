@@ -148,7 +148,8 @@
     @media screen and (max-width: $mobileMaxScreenWidth){
         .grid-rooms{
             grid-column: 2/25;
-            grid-row: 6/26;
+            grid-row: 6/25;
+            
             display: flex;
             display:-ms-flexbox;
             display: -webkit-flex;
@@ -158,7 +159,7 @@
             align-items: center;
             justify-content: center;
 
-            max-height: 65vh;
+            max-height: 67vh;
       
         }
         
@@ -214,7 +215,7 @@
         }
 
         .friendDMs{
-        
+            margin-top: -9rem;
         }
     }
 </style>

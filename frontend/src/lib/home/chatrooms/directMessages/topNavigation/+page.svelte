@@ -1,4 +1,5 @@
 <div class="topNavbar">
+
   <div class="friendSearchbar">
     <SearchBar />
   </div>
@@ -7,8 +8,6 @@
     <i class="fa-solid fa-users-line" />
   </button>
 
-  
-  
 </div>
 
 <script>
@@ -23,16 +22,15 @@
 <style lang="scss" scoped>
   @media screen and (max-width: $mobileMaxScreenWidth) {
     .topNavbar {
-      grid-row: 1/3;
-      grid-column: 1/25;
-
+      margin-top: auto;      
       display: flex;
       display: -ms-flexbox;
       display: -webkit-flex;
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
-      margin-top: 2rem;
+      margin-top: -5rem;
+      width: 90vw;
   
     }
 
