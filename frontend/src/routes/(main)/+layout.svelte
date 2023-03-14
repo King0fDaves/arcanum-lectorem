@@ -2,7 +2,7 @@
 	<link rel="stylesheet" href="src/styles/layouts/_mainLayout.scss" />
 </svelte:head>
 
-<Chatrooms />
+
 
 <section class="mainPage">
   <slot />

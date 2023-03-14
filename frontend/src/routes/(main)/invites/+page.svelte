@@ -1,16 +1,13 @@
-<section class="homepage">
+<section class="invitespage">
 
-	<Chatrooms />
+	sECTION
 	
 </section>
 
-<script>
-	import Chatrooms from "$lib/home/chatrooms/+page.svelte"
-</script>
-
 <style lang="scss">
-    @media screen and (max-width: $tabletMaxScreenWidth){
-		.homepage{
+
+@media screen and (max-width: $tabletMaxScreenWidth){
+		.invitepage{
 			overflow-y: hidden;
 			overflow-x: hidden;
 			padding: 0;
@@ -23,5 +20,5 @@
 			display: -webkit-flex;
 			flex-direction: row;
       }
-	}
+      }
 </style>

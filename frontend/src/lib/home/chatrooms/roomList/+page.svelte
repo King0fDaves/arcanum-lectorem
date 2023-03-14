@@ -1,142 +1,104 @@
-<div class="grid-rooms {isFriendRoute ? ["friendDMs"]:['']}">
-    <span class="roomTitle">{title}</span>
 
-    <ul class="rooms">
+<div class="rooms">
+
+    <ul class="roomsList">
+        
         <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
+            <a class="roomRedirect "  href="#">
+                <div class="roomRedirect__img "></div>
+                <span class="roomRedirect__roomName">Rick Rollers</span>
+            </a>
+        </li>
+        
+        <li class="rooms__item '']}">
+            <a class="roomRedirect "  href="#">
+                <div class="roomRedirect__img "></div>
+                <span class="roomRedirect__roomName">Rick Rollers</span>
+            </a>
+        </li>
+        
+        <li class="rooms__item '']}">
+            <a class="roomRedirect "  href="#">
+                <div class="roomRedirect__img "></div>
                 <span class="roomRedirect__roomName">Rick Rollers</span>
             </a>
         </li>
 
         <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
+            <a class="roomRedirect "  href="#">
+                <div class="roomRedirect__img "></div>
                 <span class="roomRedirect__roomName">Rick Rollers</span>
             </a>
         </li>
-
-        <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
+        
+        <li class="rooms__item '']}">
+            <a class="roomRedirect "  href="#">
+                <div class="roomRedirect__img "></div>
                 <span class="roomRedirect__roomName">Rick Rollers</span>
             </a>
         </li>
-
-        <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
-                <span class="roomRedirect__roomName">Rick Rollers</span>
-            </a>
-        </li>
-
-        <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
-                <span class="roomRedirect__roomName">Rick Rollers</span>
-            </a>
-        </li>
-
-        <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
-                <span class="roomRedirect__roomName">Rick Rollers</span>
-            </a>
-        </li>
-
-        <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
-                <span class="roomRedirect__roomName">Rick Rollers</span>
-            </a>
-        </li>
-
-        <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
-                <span class="roomRedirect__roomName">Rick Rollers</span>
-            </a>
-        </li>
-
-        <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
+        
+        <li class="rooms__item '']}">
+            <a class="roomRedirect "  href="#">
+                <div class="roomRedirect__img "></div>
                 <span class="roomRedirect__roomName">Rick Rollers</span>
             </a>
         </li>
         
         <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
-                <span class="roomRedirect__roomName">Rick Rollers</span>
-            </a>
-        </li>
-
-        <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
-                <span class="roomRedirect__roomName">Rick Rollers</span>
-            </a>
-        </li>
-
-        <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
-                <span class="roomRedirect__roomName">Rick Rollers</span>
-            </a>
-        </li>
-
-        <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
-                <span class="roomRedirect__roomName">Rick Rollers</span>
-            </a>
-        </li>
-
-        <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
-                <span class="roomRedirect__roomName">Rick Rollers</span>
-            </a>
-        </li>
-
-        <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
-                <span class="roomRedirect__roomName">Rick Rollers</span>
-            </a>
-        </li>
-
-        <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
-                <span class="roomRedirect__roomName">Rick Rollers</span>
-            </a>
-        </li>
-
-        <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
-                <span class="roomRedirect__roomName">Rick Rollers</span>
-            </a>
-        </li>
-
-        <li class="rooms__item">
-            <a class="roomRedirect" href="#">
-                <div class="roomRedirect__img"></div>
+            <a class="roomRedirect "  href="#">
+                <div class="roomRedirect__img "></div>
                 <span class="roomRedirect__roomName">Rick Rollers</span>
             </a>
         </li>
         
+        <li class="rooms__item '']}">
+            <a class="roomRedirect "  href="#">
+                <div class="roomRedirect__img "></div>
+                <span class="roomRedirect__roomName">Rick Rollers</span>
+            </a>
+        </li>
         
+        <li class="rooms__item '']}">
+            <a class="roomRedirect "  href="#">
+                <div class="roomRedirect__img "></div>
+                <span class="roomRedirect__roomName">Rick Rollers</span>
+            </a>
+        </li>
+
+        <li class="rooms__item '']}">
+            <a class="roomRedirect "  href="#">
+                <div class="roomRedirect__img "></div>
+                <span class="roomRedirect__roomName">Rick Rollers</span>
+            </a>
+        </li>
+        
+        <li class="rooms__item '']}">
+            <a class="roomRedirect "  href="#">
+                <div class="roomRedirect__img "></div>
+                <span class="roomRedirect__roomName">Rick Rollers</span>
+            </a>
+        </li>
+
+        <li class="rooms__item '']}">
+            <a class="roomRedirect "  href="#">
+                <div class="roomRedirect__img "></div>
+                <span class="roomRedirect__roomName">Rick Rollers</span>
+            </a>
+        </li>
+        
+        <li class="rooms__item '']}">
+            <a class="roomRedirect "  href="#">
+                <div class="roomRedirect__img "></div>
+                <span class="roomRedirect__roomName">Rick Rollers</span>
+            </a>
+        </li>
     </ul>
     <!--
         {#each cats as cat}
 
         {/each}
-    -->
-
-    
+    -->    
 </div>  
 
 <script>
@@ -147,23 +109,13 @@
 <style lang="scss">
     @media screen and (max-width: $mobileMaxScreenWidth){
         .grid-rooms{
-            grid-column: 2/25;
-            grid-row: 6/25;
-            
-            display: flex;
-            display:-ms-flexbox;
-            display: -webkit-flex;
 
-            flex-direction: column;
-            padding: 0;
-            align-items: center;
-            justify-content: center;
-
-            max-height: 67vh;
+            height: 0vh;
+        
       
         }
         
-        .roomTitle{
+        .groupRoomsTitle{
             color:$primaryColour;
             font-family: 'GoodTimes';
             
@@ -178,6 +130,11 @@
             list-style: none;
             padding:0;
             margin-top:1.5rem;
+            height: 70vh;;
+        }
+
+        .roomsList{
+            list-style-type: none;
         }
 
         .rooms__item{
@@ -214,8 +171,7 @@
             margin-left: 1rem;
         }
 
-        .friendDMs{
-            margin-top: -9rem;
-        }
+        
+    
     }
 </style>

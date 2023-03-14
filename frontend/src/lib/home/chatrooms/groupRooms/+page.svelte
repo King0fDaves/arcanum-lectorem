@@ -1,61 +1,42 @@
 <div class="groupChats" id="groupChats">
-
-  <div class="topNavbar">
-    <SearchBar />
-    
-    <div class="closebtn" on:click={() => {closeSide();}}>
-      <i class="closeIcon fa-solid fa-xmark"></i>
-    </div>
-    
-  </div>
- 
-  <RoomList title="Groups" />
+  <Rooms openSideBar={openSide} title="Groups" icon="fa-solid fa-x"/>
 </div>
 
 <script>
-  import SearchBar from "$lib/home/searchBar/+page.svelte";
-  
-  import RoomList from "$lib/home/chatrooms/roomList/+page.svelte";
-  function closeSide() {
-    document.getElementById("groupChats").style.width = "0";
-  }
+  let openSide = false;
+  import Rooms from "$lib/home/chatrooms/rooms/+page.svelte";
 
 </script>
 
 <style lang="scss">
   @media screen and (max-width: $mobileMaxScreenWidth) {
     .groupChats {
-      display: grid;
-      display: -ms-grid;
-      display: -moz-grid;
-
-      height: 100%;
+     
+    
+      height: 83vh;
+    
       width: 0;
       position: fixed;
       z-index: 1;
-      top: 0;
-      left: 0;
+    
       background-color: #000;
       overflow-x: hidden;
       transition: 0.5s;
 
-      grid-template-columns: repeat(25, 1fr);
-      grid-template-rows: repeat(25, 1fr);
-      grid-column: repeat(25, 1fr);
-      grid-row: repeat(25, 1fr);
     }
 
     .topNavbar{
-      grid-column: 2/25;
-      grid-row: 2/4;
       display: flex;
-      display: -webkit-flex;
       display: -ms-flexbox;
+      display: -webkit-flex;
       flex-direction: row;
-      padding:0;
-      margin:0;
       align-items: center;
-      justify-content: space-evenly;
+      justify-content: space-between;
+      margin-top:-75vh;
+
+      margin-bottom: 3rem;
+      width:80vw;
+    
     }
     .closebtn{
       text-align: center;
@@ -71,8 +52,7 @@
     .closeIcon{
       margin-top:25%;
     }
-    
-    
+
 
   }
 </style>

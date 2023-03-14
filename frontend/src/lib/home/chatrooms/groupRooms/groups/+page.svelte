@@ -1,5 +1,4 @@
 <div class="grid-groups">
-    <span class="groupTitle">Groups</span>
 
     <ul class="groups">
         <li class="groups__item">
@@ -18,7 +17,9 @@
 
     
 </div>  
-
+<script>
+    
+</script>
 <style lang="scss">
     @media screen and (max-width: $mobileMaxScreenWidth){
         .grid-groups{
@@ -35,7 +36,7 @@
         .groupTitle{
             color:$primaryColour;
             font-family: 'GoodTimes';
-            
+
         }
 
         .groups{

@@ -11,19 +11,21 @@
 </script>
 
 <style lang="scss">
+
     .grid-loginFormField{
+        
     }
     .loginFormField{
         display:flex;
         display: -ms-flexbox;
         display: -webkit-flex;
-        
         flex-direction:column;
+
         justify-content: center;
         align-items: center;
+
         margin-bottom:3vh;
     }
-
     .loginFormField__title{
         margin-bottom:3vh;
         margin-left:2rem;
@@ -31,13 +33,10 @@
         font-family:'GoodTimes';
         color:$textColour;
     }
-
     .loginFormField__input{
-        align-self: center;
-        justify-content: center;
         @include inputField(15rem, 2rem, .75rem);
         @include sharpBorderCorners(1rem);
-
+        margin-left: 2rem;
     }
     
 </style>
